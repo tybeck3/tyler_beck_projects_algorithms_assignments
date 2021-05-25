@@ -11,6 +11,7 @@
     	while(runner){
     		var stringToAdd = toString(runner.value);
     		resultString = resultString.concat(stringToAdd);
+    		runner = runner.next;
     	}
     	return resultString;
     }
